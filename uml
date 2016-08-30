@@ -1,0 +1,24 @@
+Platform
+->AllGames (list of games)
+
+games
+  -> properties
+  -->(methods, verbs)
+  -->shown()
+  ->nouns , variables
+  ->attributes -> hashmap(string, string)
+  ->game date
+  ->teams for games
+  ->url link
+
+person
+  -> properties
+  ->bets/profits/losses/moneyamount/currently betted/ points/cashout points
+  -->methods
+  -->challenge(Person personB, Games Game)
+  -->canAccept(Challenge)
+  ->challenges[]
+  -->declineChallenge(Person personB)
+  ->History of transactions
+  --->bets
+  --->games , losses , profits ,
